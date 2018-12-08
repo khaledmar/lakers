@@ -59,7 +59,7 @@ print(time.time() - start)
 ```
 
 - Dataframe de saída 1 (df1):
-[Alt text](/desafio_programacao/dataframe_output1.png?raw=true "Title")
+[Alt text](/desafio_programacao/dataframe_output1.png "Title")
 
 - Dataframe de saída 2 (df2):
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
