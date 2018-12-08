@@ -13,7 +13,7 @@
     - Os tempos de execução devem ser medidos e apresentados utilizando o time library do python.
 
 - Bibliotecas necessárias:
-```
+```python
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 import time
