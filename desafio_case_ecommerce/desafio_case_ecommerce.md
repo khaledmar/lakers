@@ -120,11 +120,12 @@
     - Verifique as tabelas raw e aggregated:
   
      ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/athena_query_raw.png)
-     
-  ## Tarefa 1:
-  - Apresente os produtos mais procurados, salve a query e uma amostra do resultado com as primeiras 10 linhas para apresentar no final da batalha.
+  ## Tarefas
   
-  ## Tarefa 2:
+  ### Tarefa 1 - Query e schemas:
+  - Apresente os produtos mais procurados, salve a query e uma amostra do resultado com as primeiras 10 linhas para apresentar posteriormente.
+  
+  #### Tarefa 1.1 - ajuste schema:
   - Ajuste o schema da tabela aggregated, alterando os nomes das colunas de acordo com a tabela abaixo:
   
 | (Nome Atual) | (Novo Nome)   |   |
@@ -143,8 +144,44 @@
 | partition_1  | month         |   |
 | partition_2  | day           |   |
 | partition_3  | hour          |   |
-|              |               |   |
-    |              |               |   |
+
+  #### Tarefa 1.2 - Inferir Schema e Hive Metadata:
+  - As tabelas dos dados raw e aggregated data foram criadas atraves do Glue Crawlers.
+  - Em vez de utilizar o Glue, apresente como seria o processo para inferir os schemas dos dois tipos de dados brutos (raw - estrutura json e aggregated - estrutura csv) disponiveis no S3, utilizando PySpark e gerando um schema de tabela no Hive Metastore (o schema pode ser salvo no Glue Catalog).
+  - Na sequencia demonstre como realizar queries HiveQL ou no Athena nas duas tabelas criadas, realizando filtros simples e count de linhas. 
+
+ ### Tarefa 2 - Armazenamento e Processamento Batch Data Lake:
+  - Crie novo(s) bucket(s) S3 para armazenar outra(s) camada(s) do datalake. A(s) outra(s) camadas devem prover um armazenamento eficiente dos dados em termos de espaço e desempenho de acesso para queries exploratórias que possam ser realizadas de forma ad-hoc por diferentes equipes de usuários, analistas ou cientista de dados. 
+  - Os dados brutos armazenados no bucket atual devem ser processados pelo Spark ou Hive para serem gravados na(s) outra(s) camada(s).
+ 
+ ### Tarefa 3 - Visualização:
+  - Apresentar gráficos (de barra, pizza, ou outros tipos) em uma ferramenta de Analytics/BI, analisando os acessos realizados por diferentes tipos de devices.
+  #### Tarefa 3.1 - Gráfico de pizza por device:
+   - Gerar um gráfico de acessos por device semelhante ao seguinte exemplo:
+   
+   ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/acessos_por_device.png)
+   
+  #### Tarefa 3.2 - Heat Map:
+   - Apresentar um mapa de calor (Heat map) de acessos por Trafficfrom e Url.
+  
+  #### Tarefa 3.3 - Insights:
+   - Apresentar até dois insights com gráficos e análises que possam ser reveladores ou muitos interessantes para os executivos, gestores ou especialistas de negócios da empresa de ecommerce.   
+   
+ ### Tarefa 4 - Processamento Near Real Time:
+   - Ler os dados em near real time diretamente Kinesis Streams utilizando ferramentas de streaming/microbatching. 
+   #### Tarefa 4.1 - Usuarios unicos com janelas de 15 segundos:
+   - Processar quantos usuários unicos navegam nos URLs, apresentando resultados com janelas de 15 segundos.
+   
+   #### Tarefa 4.2 - Usuarios unicos com janelas de 1 minuto:
+   - Processar quantos usuários unicos navegam nos URLs, apresentando resultados com janelas de 1 minuto.
+   
+   
+   
+  
+    
+  
+   
+    
 
   
   
