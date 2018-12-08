@@ -20,7 +20,7 @@ import time
 ```
 
 - Dataframe de exemplo 1:
-```
+```python
 df = spark.createDataFrame([
     ('id_cliente-1',  'cat-1, cat-2, cat-3'),
     ('id_cliente-2',  'cat-1, cat-4, cat-5'),
@@ -36,7 +36,7 @@ df = spark.createDataFrame([
 ```
 
 - Dataframe de exemplo 2:
-```
+```python
 df2 = spark.createDataFrame([
     ('id_cliente-1',  'cat-1, cat-2, cat-3, cat-15'),
     ('id_cliente-2',  'cat-1, cat-4, cat-5, cat-11, cat-14'),
@@ -52,7 +52,7 @@ df2 = spark.createDataFrame([
 ```
 
 - Calcular tempo:
-```
+```python
 start = time.time()
 # Seu script
 print(time.time() - start)
