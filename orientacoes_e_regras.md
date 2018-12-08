@@ -11,7 +11,7 @@
    - Somente alunos da FIA do Labdata podem participar desta batalha de dados.
    - Cada time vai ter um representante que irá criar ou utilizar um email específico para receber uma conta temporária da AWS.
    - A conta AWS permanecerá ativa apenas até a finalização da batalha de dados, depois será removida.
-   - Cada time pode fazer até 3 perguntas abertas, compartilhando com toda a turma, e pode fazer até 2 perguntas diretas para o professor.
+   - Cada time pode fazer até 3 perguntas abertas, compartilhando com toda a turma, e pode fazer até 3 perguntas diretas para o professor.
    - A definição do melhor time levará em consideração o trabalho apresentado de forma geral, custos de AWS, conceitos aplicados, execução, quantidade de perguntas realizadas, qualidade da conclusão das tarefas solicitadas e trabalho em equipe.
    - Os entregáveis da batalha de dados são: 
      1) apresentação em formato pdf / ppt / notebooks (Zeppelin ou Juypyter, outros) apresentando os fluxos dos dados, conceitos e atividades realizadas. 
@@ -21,6 +21,7 @@
             - diretório => resolucao_desafio_ecommerce:
                 - subdiretório => tarefas1
                     - subdiretório => tarefa11   
+   - Podem surgir novas demandas de tarefas surpresas durante realização da batalha de dados, na qual a expectativa é que sejam realizadas para a apresentação final.
    - Premiação: haverá troféus e brindes para o time que obtiver o primeiro lugar e brindes para o time que obtiver segundo lugar. 
 
 ### A equipe Labdata deseja boas atividades a todas as equipes. Se divirtam e aprendam o máximo que puderem, colaborando e ensinando também !
