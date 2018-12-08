@@ -21,7 +21,7 @@
     
 - Preencher o conteúdo dos parâmetros solicitados de forma semelhante ao seguinte exemplo:
      - obs 1: Lembre-se que o nome do S3 bucket (Bucket Name) tem que possuir um prefixo unico em nível global.
-     - obs 2: Lembre-se de fazer deploy na region da N. Virgina.
+     - obs 2: Lembre-se de fazer deploy na region da N. Virgina (para escolhar a region selecione no conta de cima do lado direito da tela a region solicitada).
 
     ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo1.png)
 
