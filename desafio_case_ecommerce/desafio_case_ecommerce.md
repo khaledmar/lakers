@@ -10,7 +10,7 @@
 
 - Fluxo de dados criado pelo Cloudformation:
 
-![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/fluxo_de_dados.png)
+    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/fluxo_de_dados.png)
 
 
 - Realizar deploy do Cloudformation template:
@@ -20,10 +20,10 @@
     ```
     
 - Preencher o conteúdo dos parâmetros solicitados de forma semelhante ao seguinte exemplo:
-obs 1: Lembre-se que o nome do S3 bucket (Bucket Name) tem que possuir um prefixo unico em nível global.
-obs 2: Lembre-se de fazer deploy na region da N. Virgina.
+     - obs 1: Lembre-se que o nome do S3 bucket (Bucket Name) tem que possuir um prefixo unico em nível global.
+     - obs 2: Lembre-se de fazer deploy na region da N. Virgina.
 
-![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo1.png)
+    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo1.png)
 
 - Verifique o status da evolução do cloudformation ecommerce:
     - Para verificar a evolução clique no link:
@@ -31,12 +31,12 @@ obs 2: Lembre-se de fazer deploy na region da N. Virgina.
     https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks
     ```
 
-![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo2.png)
+    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo2.png)
 
 - Aguarde, entre 12 e 20 minutos, para o deploy fique com o status de completo (CREATE_COMPLETE):
   
-![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo3.png)
+    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo3.png)
 
 - Valide os recursos criados:
 
-![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo4.png)
+    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo4.png)
