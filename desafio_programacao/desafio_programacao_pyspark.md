@@ -1,7 +1,8 @@
-## Desafio Programação PySpark
+# Desafio Programação PySpark
 
-- Descrição:
-    Dado um dataframe com duas colunas [id_cliente, categorias]. Fazer um dataframe resultado, com uma coluna pra cada tipo de categoria, com valor 1 caso aquela categoria exista e 0 caso não exista, isso para cada cliente (one-hot-encoded).
+## Descrição da Tarefa:
+   - Dado um dataframe com duas colunas [id_cliente, categorias]. 
+   - Fazer um dataframe resultado, com uma coluna pra cada tipo de categoria, com valor 1 caso aquela categoria exista e 0 caso não exista, isso para cada cliente (one-hot-encoded).
 
 - Regras:
     - Usar pyspark.
