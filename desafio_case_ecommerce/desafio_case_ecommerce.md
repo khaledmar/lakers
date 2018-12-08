@@ -155,9 +155,9 @@
   - Os dados brutos armazenados no bucket atual devem ser processados pelo Spark ou Hive para serem gravados na(s) outra(s) camada(s).
  
  ### Tarefas 3 - Visualização:
-  - Apresentar gráficos (de barra, pizza, ou outros tipos) em uma ferramenta de Analytics/BI, analisando os acessos realizados por diferentes tipos de devices.
+  - Apresentar gráficos (de barra, pizza, ou outros tipos) em uma ferramenta de Analytics/BI, analisando os acessos de navegação.
   #### Tarefa 3.1 - Gráfico de pizza por device:
-   - Gerar um gráfico de acessos por device semelhante ao seguinte exemplo:
+   - Gerar um gráfico de acessos por diferentes devices, semelhante ao seguinte exemplo:
    
    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/acessos_por_device.png)
    
