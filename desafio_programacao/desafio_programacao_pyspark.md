@@ -59,8 +59,8 @@ print(time.time() - start)
 ```
 
 - Dataframe de saída 1 (df1):
-[Alt text](/desafio_programacao/dataframe_output1.png "Title")
+![alt text](/fia_batalha_de_dados1/desafio_programacao/dataframe_output1.png "Title")
 
 - Dataframe de saída 2 (df2):
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_programacao/dataframe_output2.png)
 
